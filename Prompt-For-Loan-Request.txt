@@ -1,0 +1,59 @@
+Help me to create a PHP-based responsive web application for Loan Request Form with MS Access as the backend. 
+
+Features:
+Loan Request Form
+
+Loan Request Number (Required auto increment based on database table LoanID field)
+Requested Date (Get the Current Date only)
+Partner Name (Required, Dropdown Dispaly into list box , the Name is 
+Adhiban Thibakar
+AM Avantikamayi
+Arun
+Ayyappan
+Baskar
+Bharath
+Chandra Muthu
+Jeyanth
+Jovin
+Karthi Nandhu
+Kathir
+Madasamy
+Mahesh Santhosh
+Mathavan
+Murugavel
+Muthulingam
+Ruban
+)
+Customer Name (Required)
+Amount (Required and it should be symbol of indian rupee)
+Loan Plan (Required,Dropdown  its also display in list box the list of Item is
+10  or 20 Month plan
+40 to 60 Month
+1.50%
+1.5 EMI Plan
+1.25 % EMI Plan
+13 % EMI Plan
+1.10 % Interest Plan
+)
+Requested Month (Required, Disply in calender default it show be in next month)
+Loan Priority Number (It automatical assion when ever select Loan Plan it will be assing there index number with String in "PR")
+Status (its diplay three value 
+1.Processed
+2.Completed
+3.Cancel by Customer 
+based on choices it should be heighlited in green, yellow, Red color
+)
+Remark (Texbox its value is optional)
+
+
+Database
+
+MS Access database to store Loan Request records.
+Validation
+
+Required fields enforced with frontend and backend validation.
+
+
+Responsive Design 
+
+Bootstrap-based layout for compatibility with all screen sizes.
